@@ -2,6 +2,9 @@ site_name: Portfolio AI & Data Science
 site_author: Mariusz Wolak
 site_description: Projekty z obszaru DS, ML oraz LLM
 
+repo_name: AmitrialYoung/Portfolio_AI_-_Data_Science
+repo_url: https://github.com/AmitrialYoung/Portfolio_AI_-_Data_Science
+
 theme:
   name: material
   palette:
