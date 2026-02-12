@@ -1,0 +1,39 @@
+site_name: Portfolio AI & Data Science
+site_author: Mariusz Wolak
+site_description: Projekty z obszaru DS, ML oraz LLM
+
+theme:
+  name: material
+  palette:
+    # scheme: slate
+    primary: indigo
+    accent: indigo
+
+  #   # Palette toggle for light mode
+  #   - media: "(prefers-color-scheme: light)"
+  #     scheme: default
+  #     primary: indigo
+  #     accent: indigo
+  #     toggle:
+  #       icon: material/toggle-switch
+  #       name: Switch to dark mode
+
+  #   # Palette toggle for dark mode
+  #   - media: "(prefers-color-scheme: dark)"
+  #     scheme: slate
+  #     primary: indigo
+  #     accent: indigo
+  #     toggle:
+  #       icon: material/toggle-switch-off-outline
+  #       name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Obecny projekt:
+      - Wykrywacz najważniejszych zmiennych: obecny/index.md
+  - APP:
+      - Community Matching App: Community Matching App/index.md
+      - Half-Marathon Time Predictor: Half-Marathon Time Predictor/index.md
+  - EDA:
+      - Iris: iris/index.md
+      - Titanic: titanic/index.md
