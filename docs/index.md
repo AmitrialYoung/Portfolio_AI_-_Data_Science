@@ -6,25 +6,25 @@ Każdy projekt to historia przejścia od surowego zbioru danych do działająceg
 
 ---
 
-### 🛠️ Mój Stack Technologiczny
+### Stack Technologiczny
 
 Moje projekty opierają się na nowoczesnych narzędziach, które wspierają każdy etap pracy z danymi — od czyszczenia i wizualizacji, po wdrażanie zaawansowanych aplikacji AI.
 
-#### 🐍 Data Science & Machine Learning
+#### Data Science & Machine Learning
 * **Języki & Biblioteki:** Python, SQL, Pandas, Scikit-learn, PyCaret
-* **Wizualizacja:** Matplotlib, Seaborn, Plotly (interaktywne wykresy)
+* **Wizualizacja:** Matplotlib, Seaborn, Plotly
 * **Eksperymenty & Tracking:** MLflow
 
-#### 🤖 Generative AI & LLMOps
-* **Orkiestracja & Monitoring:** Langfuse
+#### Generative AI & LLMOps
+* **Monitoring:** Langfuse
 * **Bazy Wektorowe:** Qdrant (RAG & Vector Search)
 * **Interfejs AI:** Streamlit
 
-#### 🏗️ Inżynieria & Narzędzia Pracy
-* **Infrastruktura:** Digital Ocean (Cloud Hosting)
+#### Inżynieria & Narzędzia Pracy
+* **Infrastruktura:** Digital Ocean
 * **Kontrola wersji:** Git
 * **Środowisko:** VS Code
-* **Zarządzanie Projektami:** Jira / Trello
+* **Zarządzanie Projektami:** Trello
 
 ---
 
@@ -32,7 +32,7 @@ Moje projekty opierają się na nowoczesnych narzędziach, które wspierają ka�
 
 ---
 
-### 🚀 Co tutaj znajdziesz?
+### Co tutaj znajdziesz?
 
 * **Analizy Eksploracyjne (EDA):** Odkrywanie wzorców i wizualizacja kluczowych trendów w danych.
 * **Modele Machine Learning:** Rozwiązania problemów klasyfikacji, regresji oraz optymalizacji.

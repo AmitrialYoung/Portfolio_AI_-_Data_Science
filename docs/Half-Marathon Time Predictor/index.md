@@ -1,4 +1,4 @@
-# 🏃‍♂️ Half Marathon Predictor – End-to-End Machine Learning System
+# **Half Marathon Predictor – End-to-End Machine Learning System**
 
 System uczenia maszynowego służący do predykcji czasu ukończenia Półmaratonu Wrocławskiego na podstawie wyników biegu na 5 km, wieku oraz płci. Projekt łączy klasyczne modelowanie regresyjne z nowoczesnym podejściem Generative AI (LLM) do parsowania danych użytkownika.
 
@@ -6,7 +6,7 @@ System uczenia maszynowego służący do predykcji czasu ukończenia Półmarato
 
 *Celem aplikacji było nauczenie się korzystania z usług w chmurze (Digital Ocean) i monitorowaniem LLM (Langfuse).*
 
-## 🏗️ Architektura Systemu
+## **Architektura Systemu**
 
 Projekt został zaprojektowany w oparciu o architekturę chmurową, zapewniającą separację danych, modelu i warstwy prezentacji:
 
@@ -19,12 +19,12 @@ Projekt został zaprojektowany w oparciu o architekturę chmurową, zapewniając
 
 ---
 
-## 🛠️ Stack Technologiczny
+## **Stack Technologiczny**
 
 | Kategoria | Technologie |
 | :--- | :--- |
 | **Język** | Python 3.11 |
-| **Data Science** | Pandas, NumPy, PyCaret, Scikit-learn |
+| **Data Science** | Pandas, NumPy, PyCaret |
 | **Cloud & DevOps** | Digital Ocean Spaces, Digital Ocean App Platform, Boto3 |
 | **Generative AI** | OpenAI API (GPT-4o-mini) |
 | **Monitoring** | Langfuse |
@@ -32,7 +32,7 @@ Projekt został zaprojektowany w oparciu o architekturę chmurową, zapewniając
 
 ---
 
-## 📈 Cykl Życia Projektu
+## **Cykl Życia Projektu**
 
 ### 1. Inżynieria Danych (ETL)
 * **Pozyskiwanie:** Synchronizacja lokalnych zbiorów danych z chmurą Digital Ocean za pomocą skryptów opartych na `boto3`.

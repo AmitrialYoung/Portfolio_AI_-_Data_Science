@@ -7,34 +7,41 @@ repo_url: https://github.com/AmitrialYoung/Portfolio_AI_-_Data_Science
 
 theme:
   name: material
+  language: pl
+  features:
+    - navigation.tabs          # Główne menu na górze
+    - navigation.tabs.sticky   # Menu zostaje przy przewijaniu
+    - navigation.sections      # Grupowanie sekcji
+    - navigation.expand        # Automatyczne rozwijanie
+    - toc.integrate            # INTEGRACJA: Spis treści strony wędruje do menu
+    - content.code.copy
+  
   palette:
-    # scheme: slate
-    primary: indigo
-    accent: indigo
+    - scheme: slate
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Tryb jasny
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Tryb ciemny
 
-  #   # Palette toggle for light mode
-  #   - media: "(prefers-color-scheme: light)"
-  #     scheme: default
-  #     primary: indigo
-  #     accent: indigo
-  #     toggle:
-  #       icon: material/toggle-switch
-  #       name: Switch to dark mode
-
-  #   # Palette toggle for dark mode
-  #   - media: "(prefers-color-scheme: dark)"
-  #     scheme: slate
-  #     primary: indigo
-  #     accent: indigo
-  #     toggle:
-  #       icon: material/toggle-switch-off-outline
-  #       name: Switch to light mode
+markdown_extensions:
+  - attr_list
+  - tables
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: index.md
-  - Obecny projekt:
-      - Wykrywacz najważniejszych zmiennych: obecny/index.md
-  - APP:
+  - Obecny projekt: obecny/index.md
+  - APP: 
       - Community Matching App: Community Matching App/index.md
       - Half-Marathon Time Predictor: Half-Marathon Time Predictor/index.md
   - EDA:

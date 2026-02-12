@@ -31,14 +31,17 @@ Na podstawie tych danych model przypisuje użytkownika do określonego klastra, 
 
 ---
 
-## Technologie
+## **Technologie**
 
-- **Streamlit** – interfejs aplikacji webowej  
-- **PyCaret (Clustering)** – budowa i zapis pipeline ML  
-- **Pandas** – przetwarzanie danych  
-- **Plotly Express** – wizualizacje  
-- **JSON** – przechowywanie nazw i opisów klastrów  
-- **CSV** – dane wejściowe  
+| Narzędzie | Zastosowanie |
+| :--- | :--- |
+| **Python 3.11** | Język programowania |
+| **Streamlit** | Interfejs aplikacji webowej |
+| **PyCaret (Clustering)** | Budowa i zapis pipeline ML |
+| **Pandas** | Przetwarzanie danych |
+| **Plotly Express** | Wizualizacje |
+| **JSON** | Przechowywanie nazw i opisów klastrów |
+| **CSV** | Dane wejściowe |  
 
 ---
 
@@ -49,8 +52,7 @@ Na podstawie tych danych model przypisuje użytkownika do określonego klastra, 
 Model klasteryzacji zapisany jako pipeline jest ładowany przy starcie aplikacji:
 
 - `load_model(MODEL_NAME)`  
-- wykorzystanie `@st.cache_data` w celu optymalizacji wydajności  
-
+- wykorzystanie `@st.cache_data` pozwala ograniczyć wielokrotne ładowanie modelu oraz danych, poprawia wydajność aplikacji
 ---
 
 ### 2. Wczytanie danych historycznych
@@ -95,17 +97,7 @@ Dla osób należących do tego samego klastra generowane są histogramy przedsta
 - preferencje dotyczące miejsca spędzania czasu  
 - rozkład płci  
 
-Wizualizacje tworzone są przy użyciu **Plotly Express**, co umożliwia interaktywną eksplorację danych.
-
----
-
-## Optymalizacja
-
-W aplikacji zastosowano mechanizm cache:
-
-- `@st.cache_data`  
-
-Pozwala to ograniczyć wielokrotne ładowanie modelu oraz danych, co poprawia wydajność aplikacji.
+Wizualizacje tworzone są przy użyciu `Plotly Express`, co umożliwia interaktywną eksplorację danych.
 
 ---
 
@@ -113,7 +105,7 @@ Pozwala to ograniczyć wielokrotne ładowanie modelu oraz danych, co poprawia wy
 
 Projekt można rozbudować o:
 
-- redukcję wymiarowości (PCA, t-SNE) w celu wizualizacji klastrów w 2D  
+- redukcję wymiarowości (PCA) w celu wizualizacji klastrów w 2D  
 - porównanie użytkownika z centroidem klastra  
 - zapis nowych użytkowników do bazy danych  
 - dynamiczne przetrenowanie modelu  

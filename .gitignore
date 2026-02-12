@@ -1,1 +1,3 @@
 site
+
+mkdocs copy.yml
